@@ -1,6 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-color: lightblue;
+    background-color: lightblue !important;
     margin: 0;
     padding: 0;
 }
@@ -132,7 +132,7 @@ h6{
 }
 
 h1{
-    margin:60px 0 20px 0;
+    margin:60px 0 20px 0 !important;
     font-weight: 400;
     text-align: center;
     font-size: 40px;
@@ -175,11 +175,22 @@ h1{
     transform: rotate(10deg) scale(1.3);
 }
 
-#form{
+form{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 70px;
+
 }
+
+.mb-3{
+    width: 50%; 
+    margin-inline: auto ;  
+}
+
+.form-check .form-check-input{
+    float: none !important;
+}
+
 
 .nosotros p{
     text-align: center;   
@@ -199,4 +210,9 @@ h1{
     margin-top: 40px;
 }
 
-
+.carousel-item img{
+    width: 100%;
+    vertical-align: top;
+    height: 500px;
+    object-fit: cover;
+}

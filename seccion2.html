@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Contacto</title>
 </head>
 <body> 
@@ -17,32 +18,35 @@
     <li><a href="seccion3.html">Quienes somos</a></li>
     <li><a href="seccion4.html">Como comprar</a></li>
 </ul>
-<div id="form">
-    <form action="" class="formulario">
-        <label for="Usuario">Ingrese su nombre:</label>
-        <input type="text" id="Usuario" placeholder="Nombre">
-        <br>
-        <label for="Mail">Correo electronico</label>
-        <input type="" id="Mail" placeholder="Ejemplo@gmail.com">
-        <br>
-        <br>
-       <label for="Estado">Estado civil:</label>
-        <select name="" id="Estado">
-            <option value="">Soltero</option>
-            <option value="">Soltera</option>
+<form>
+    <fieldset>
+      <legend>Contactanos</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Deja tu nombre</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Deja tu Mail</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Sexo</label>
+        <select id="disabledSelect" class="form-select">
+          <option>Hombre</option>
+          <option>Mujer</option>
         </select>
-        <br>
-        <br>
-        <label for="aceptar">¿Desea recivir notificaciones?</label>
-        <input type="checkbox">
-        <br>
-        <br>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
-        <br>
-        <input type="reset" value="Limpiar formulario">
-        <input type="submit" value="Enviar">
-    </form>
-</div>
+      </div>
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+          <label class="form-check-label" for="disabledFieldsetCheck">
+            Desea resivir notificaciones?
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </fieldset>
+  </form>
 
 <div class="footer">
     <footer>
@@ -59,6 +63,8 @@
         <h6> ©2020 Lucas Navarro -Todos los Derechos Reservados-</h4>
     </footer>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

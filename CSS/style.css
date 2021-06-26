@@ -25,7 +25,7 @@ li a{
     text-decoration: none; 
 }
 
-#navBar{
+ #navBar{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly ;
@@ -42,6 +42,10 @@ li a{
 
 #navBar li{
     display: inline-block;
+} 
+
+.nav-color{
+    background-color: rgb(185, 125, 235) !important;	
 }
 
 .titulo{

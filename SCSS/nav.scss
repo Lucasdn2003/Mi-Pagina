@@ -1,0 +1,39 @@
+.nav{
+    flex-direction: column;
+    grid-column: 1/4 !important; 
+    top: 0px;
+    margin-top: 0px;
+    left: 0px;  
+    padding-left:0px; 
+ }
+
+ #navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center; 
+    position: absolute;
+    background-color: rgb(185, 125, 235);
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    left: 0px;  
+    padding-left:0px; 
+
+        li{
+            display: inline-block;}
+} 
+
+.nav-color{
+    background-color: rgb(185, 125, 235) !important;	
+}
+
+ul{
+    list-style-type: none;
+        li{  
+            a{
+                text-decoration: none; 
+        }
+    }  
+}

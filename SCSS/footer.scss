@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(185, 125, 235) ;
+    margin-top: 40px;
+    
+}
+
+.iconos{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+hr{
+    width: 80%;
+}
+
+h6{
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+.logoFooter{
+    width: 70px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}

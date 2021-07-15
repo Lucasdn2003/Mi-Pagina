@@ -7,3 +7,16 @@
 ol{
     list-style-type: none;
 }
+
+.tempo{
+    text-align: center;
+    border: 3px solid greenyellow;
+    margin: 0 30% 50px 30%;
+    color: green;
+}
+
+.tempo2{
+    @extend .tempo;
+    border: 3px solid rgb(255, 154, 143);
+    color: red;
+}

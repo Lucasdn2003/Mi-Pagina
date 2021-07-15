@@ -84,7 +84,7 @@ h1 {
   width: 100%;
   padding: 20px 0;
   background: #b97deb;
-  margin-top: 40px; }
+  margin-top: 0px; }
 
 .iconos {
   display: flex;
@@ -92,7 +92,7 @@ h1 {
   padding-top: 15px; }
 
 hr {
-  width: 80%; }
+  width: 100%; }
 
 h6 {
   text-align: center;
@@ -168,6 +168,16 @@ h6 {
 
 ol {
   list-style-type: none; }
+
+.tempo, .tempo2 {
+  text-align: center;
+  border: 3px solid greenyellow;
+  margin: 0 30% 50px 30%;
+  color: green; }
+
+.tempo2 {
+  border: 3px solid #ff9a8f;
+  color: red; }
 
 body {
   font-family: 'Ubuntu', sans-serif;

@@ -1,10 +1,13 @@
-.footer{
+@mixin pie ($fondo, $margen){ 
     width: 100%;
     padding: 20px 0;
-    background: rgb(185, 125, 235) ;
-    margin-top: 40px;
-    
+    background: $fondo;
+    margin-top: $margen;
 }
+
+.footer{
+    @include pie(rgb(185, 125, 235), 0px)
+} 
 
 .iconos{
   display: flex;
@@ -13,7 +16,7 @@
 }
 
 hr{
-    width: 80%;
+    width: 100%;
 }
 
 h6{
